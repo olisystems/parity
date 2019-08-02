@@ -1,0 +1,20 @@
+[parity]
+chain = "Volta.json"
+base_path = "/parity/volta-data"
+db_path = "/parity/volta-data"
+keys_path = "/oli-data"
+
+
+[rpc]
+interface = "127.0.0.1"
+cors = ["all"]
+hosts = ["all"]
+apis = ["web3", "eth", "net", "parity", "traces", "rpc", "personal", "parity_accounts", "signer", "parity_set"]
+
+[network]
+port = 30305
+
+[account]
+unlock = ['account']
+password = ["password.pwd"]
+
